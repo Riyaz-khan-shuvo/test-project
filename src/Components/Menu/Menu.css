@@ -1,0 +1,24 @@
+.navbar img {
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+}
+.borders{
+    border-right: 1px solid black;
+    height: 35px;
+    display: flex;
+    margin: 0 17px;
+}
+.price{
+    margin-right: 55px;
+}
+@media (max-width: 576px) {
+    .borders{
+        border: none;
+        height: 0;
+        margin: 0;
+    }
+    .price{
+        margin-right: 0;
+    }
+  }

@@ -1,0 +1,12 @@
+.filter-area{
+    border: 1px solid #dddd;
+    border-radius: 9px;
+    padding: 25px 11px;
+    margin-bottom: 355px;
+}
+.dash{
+    border: 2px solid #999999;
+    width: 100%;
+    border-style: dashed;
+    margin: 25px 0;
+}

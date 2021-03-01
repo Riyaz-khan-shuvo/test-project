@@ -1,0 +1,12 @@
+.footer-area{
+    border-top: 1px solid #ddd;
+    padding: 50px;
+}
+.forms{
+    position: relative;
+}
+.forms .icons{
+    position: absolute;
+    right: 29px;
+    top: 15px;
+}

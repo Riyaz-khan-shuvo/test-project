@@ -1,0 +1,48 @@
+.navbar-nav>li>a, .submenu-box ul li a {
+    color: black !important;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 10px 10px 10px 20px !important;
+    display: block;
+    font-weight: 400;
+    position: relative;
+    z-index: 2;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .2px;
+}
+.navbar-nav>li>a.active {
+    color: black !important;
+    background: linear-gradient(90deg, rgba(59, 125, 221, .1), rgba(59, 125, 221, .0875) 50%, transparent);
+    border-left: 4px solid #3b7ddd;
+}
+
+.navbar-nav .has-sub>a.collapsed::after {
+    transition: 0.4s ease;
+}
+
+.navbar-nav .has-sub>a.collapsed::after {
+    color: gray;
+    font-size: 10px;
+    content: "\f078";
+}
+
+.navbar-nav .has-sub>a.collapsed::after {
+    color: gray;
+}
+
+.navbar-nav .has-sub>a::after {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: gray;
+    display: block;
+    content: "\f077";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 30px;
+    margin-top: -15px;
+}
